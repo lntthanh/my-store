@@ -1,0 +1,45 @@
+img {
+  border-radius: 10px;
+  width: 320px;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.detail-item {
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.back-link {
+  margin-top: 8px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.select-input {
+  width: 115px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+}
+
+.btn-primary {
+  min-width: 115px;
+  padding: 6px 12px;
+
+  color: white;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: #33b5e5;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid blue;
+  }
+}
