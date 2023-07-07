@@ -42,7 +42,7 @@ export class CartService {
     const prod = this.cart.items.find((item) => item.id === product.id);
 
     if (prod !== undefined) {
-      prod.quantity = prod.quantity + qty;
+      prod.quantity = prod.quantity + +qty;
     } else {
       const orderItem = new OrderItem();
       orderItem.id = product.id;
@@ -50,7 +50,7 @@ export class CartService {
       orderItem.price = product.price;
       orderItem.description = product.description;
       orderItem.url = product.url;
-      orderItem.quantity = qty;
+      orderItem.quantity = +qty;
 
       this.cart.items.push(orderItem);
     }
