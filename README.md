@@ -35,11 +35,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   { path: '**', redirectTo: '/' },
 ```
 ### 2. Components
-- ProductsComponent (`app/products`): display the list of products
-- ProductItemDetailComponent (`app/products/product-item-detail`): display the detail of a product
-- CartComponent (`app/cart`): display the current cart information & checkout
-- ConfirmationComponent (`app/confirmation`): confirm successful checkout
-- ProductItemComponent (`app/products/product-item`): display a product item information in the product list
+- ProductsComponent (`app/components/products`): display the list of products
+- ProductItemDetailComponent (`app/components/products/product-item-detail`): display the detail of a product
+- CartComponent (`app/components/cart`): display the current cart information & checkout
+- ConfirmationComponent (`app/components/confirmation`): confirm successful checkout
+- ProductItemComponent (`app/components/products/product-item`): display a product item information in the product list
 
 ### 3. Models
 - Product Model includes id, name, price, url (image url) and description.
