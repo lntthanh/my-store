@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-import { Cart, OrderItem } from "./cart";
+import { Cart, OrderItem } from "../../models/cart";
 import { Router } from "@angular/router";
-import { CartService } from "./cart.service";
+import { CartService } from "../../services/cart.service";
 
 @Component({
   selector: 'app-cart',
